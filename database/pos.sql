@@ -434,7 +434,7 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`id`, `name`, `email`, `phone`, `dob`, `country`, `city`, `address`, `created_at`, `updated_at`) VALUES
-(1, 'walk-in-customer', 'customer@infypos.com', '123456789', NULL, 'india', 'mumbai', 'Dr Deshmukh Marg , mumbai', '2023-07-11 05:53:39', '2023-07-11 05:53:39');
+(1, 'walk-in-customer', 'customer@macrobyte.site', '123456789', NULL, 'india', 'mumbai', 'Dr Deshmukh Marg , mumbai', '2023-07-11 05:53:39', '2023-07-11 05:53:39');
 
 -- --------------------------------------------------------
 
@@ -1282,7 +1282,7 @@ INSERT INTO `settings` (`id`, `key`, `value`, `created_at`, `updated_at`) VALUES
 (11, 'expense_code', 'EX', '2023-07-11 05:53:38', '2023-07-11 05:53:38'),
 (12, 'is_currency_right', '0', '2023-07-11 05:53:39', '2023-07-11 05:53:39'),
 (13, 'currency', '1', '2023-07-11 05:53:39', '2023-07-11 05:53:39'),
-(14, 'email', 'support@infypos.com', '2023-07-11 05:53:39', '2023-07-11 05:53:39'),
+(14, 'email', 'support@macrobyte.site', '2023-07-11 05:53:39', '2023-07-11 05:53:39'),
 (15, 'company_name', 'infy-pos', '2023-07-11 05:53:39', '2023-07-11 05:53:39'),
 (16, 'phone', '1234567890', '2023-07-11 05:53:39', '2023-07-11 05:53:39'),
 (17, 'developed', 'infyom', '2023-07-11 05:53:39', '2023-07-11 05:53:39'),
@@ -5613,7 +5613,7 @@ CREATE TABLE `warehouses` (
 --
 
 INSERT INTO `warehouses` (`id`, `name`, `phone`, `country`, `city`, `email`, `zip_code`, `created_at`, `updated_at`) VALUES
-(1, 'warehouse', '123456789', 'india', 'mumbai', 'warehouse1@infypos.com', '12345', '2023-07-11 05:53:39', '2023-07-11 05:53:39');
+(1, 'warehouse', '123456789', 'india', 'mumbai', 'warehouse1@macrobyte.site', '12345', '2023-07-11 05:53:39', '2023-07-11 05:53:39');
 
 --
 -- Indexes for dumped tables

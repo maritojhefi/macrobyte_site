@@ -18,26 +18,26 @@ class SettingTableSeeder extends Seeder
     public function run()
     {
         Customer::Create([
-            'name' => 'walk-in-customer',
-            'email' => 'customer@infypos.com',
+            'name' => 'cliente desconocido',
+            'email' => 'customer@macrobyte.site',
             'phone' => '123456789',
-            'country' => 'india',
-            'city' => 'mumbai',
-            'address' => 'Dr Deshmukh Marg , mumbai',
+            'country' => 'bolivia',
+            'city' => 'tarija',
+            'address' => 'Desconocido',
         ]);
         Warehouse::create([
-            'name' => 'warehouse',
+            'name' => 'Sucursal 1',
             'phone' => '123456789',
-            'country' => 'india',
-            'city' => 'mumbai',
-            'email' => 'warehouse1@infypos.com',
+            'country' => 'bolivia',
+            'city' => 'tarija',
+            'email' => 'sucursal@macrobyte.site',
             'zip_code' => '12345',
         ]);
 
         Currency::create([
-            'name' => 'India',
-            'code' => 'INR',
-            'symbol' => '₹',
+            'name' => 'Bolivia',
+            'code' => 'BS',
+            'symbol' => 'Bs',
         ]);
         $logoUrl = ('images/infycare-logo.png');
 
@@ -46,7 +46,7 @@ class SettingTableSeeder extends Seeder
         }
 
         if (! keyExist('email')) {
-            Setting::create(['key' => 'email', 'value' => 'support@infypos.com']);
+            Setting::create(['key' => 'email', 'value' => 'support@macrobyte.site']);
         }
 
         if (! keyExist('company_name')) {
