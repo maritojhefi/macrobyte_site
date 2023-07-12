@@ -19,9 +19,9 @@ class DefaultUserSeeder extends Seeder
     {
         $input = [
             'first_name' => 'admin',
-            'email' => 'admin@infy-pos.com',
+            'email' => 'maritojhefi@gmail.com',
             'email_verified_at' => Carbon::now(),
-            'password' => Hash::make('123456'),
+            'password' => Hash::make('jhefi123'),
         ];
         $user = User::create($input);
         /** @var Role $adminRole */
